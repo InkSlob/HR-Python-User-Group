@@ -2,6 +2,7 @@ import boto3
 import os
 import glob
 import time
+import datetime
 
 # w1 sensor 
 os.system('modprobe w1-gpio')
@@ -42,7 +43,8 @@ while True:
     c, f = read_temp(device_file)
     sensor = str(device_file[28:35])
     t = str("%.2f" % round(c,2))
-    r = {'Data':b'{%s, %s}\n' % (sensor, t)}
+#    r = {'Data':b'{%s, %s}\n' % (sensor, t)}
+    r = "%s,%s,%s\n" % (datetime.datetime.now().isoformat(), sensor, t)
     client.put_record(DeliveryStreamName='testStream', Record=r)
     print r
     time.sleep(1)
