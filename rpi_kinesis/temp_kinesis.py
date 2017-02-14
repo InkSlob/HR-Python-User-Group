@@ -43,8 +43,8 @@ while True:
     c, f = read_temp(device_file)
     sensor = str(device_file[28:35])
     t = str("%.2f" % round(c,2))
-    ts = str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-    r = {'Data':b'{%s,%s,%s\n}' % (ts, sensor, t)}
+    ts = str(datetime.datetime.now().strftime("%Y-%m-%d %H %M %S"))
+    r = {'Data':b'{"time": %s, "sensor": %s,"temp": %s}\n' % (ts, sensor, t)}
     client.put_record(DeliveryStreamName='testStream', Record=r)
     print r
     time.sleep(1)
