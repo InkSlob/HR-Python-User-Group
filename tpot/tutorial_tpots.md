@@ -63,6 +63,12 @@ Install TPOT
 $ pip3 install tpot
 ```
 
+Make virtual environment relocatable
+
+```
+$ virtualenv --relocatable venv_tpot
+```
+
 ## USING TPOT
 With the default TPOT settings (100 generations with 100 population size), TPOT will evaluate 10,000 pipeline configurations before finishing. Meaning it is intended to run for hours or days to find the best solution.
 
