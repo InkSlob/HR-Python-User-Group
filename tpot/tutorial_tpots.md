@@ -138,7 +138,7 @@ Once TPOT is finished searching (or you get tired of waiting), it provides you w
 
 ## Resources & Articles 
 
-[TPOT: A Python Tool for Automating Data Science](http://www.kdnuggets.com/2016/05/tpot-python-automating-data-science.html/2)
-[Machine Learning Tool Seeks to Automate Data Science](https://www.datanami.com/2015/10/19/machine-learning-tool-seeks-to-automate-data-science/)
-[Data Science Automation: Debunking Misconceptions](http://www.kdnuggets.com/2016/08/data-science-automation-debunking-misconceptions.html)
-[auto-sklearn Manual](https://automl.github.io/auto-sklearn/stable/manual.html#manual)
+* [TPOT: A Python Tool for Automating Data Science](http://www.kdnuggets.com/2016/05/tpot-python-automating-data-science.html/2)
+* [Machine Learning Tool Seeks to Automate Data Science](https://www.datanami.com/2015/10/19/machine-learning-tool-seeks-to-automate-data-science/)
+* [Data Science Automation: Debunking Misconceptions](http://www.kdnuggets.com/2016/08/data-science-automation-debunking-misconceptions.html)
+* [auto-sklearn Manual](https://automl.github.io/auto-sklearn/stable/manual.html#manual)
