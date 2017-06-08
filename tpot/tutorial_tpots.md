@@ -134,7 +134,7 @@ POT is a Python tool that automatically creates and optimizes machine learning p
 
 Once TPOT is finished searching (or you get tired of waiting), it provides you with the Python code for the best pipeline it found so you can tinker with the pipeline from there.  
 
-![An example TPOT pipeline](https://github.com/InkSlob/HR-Python-User-Group/tree/master/tpot/images/tpot_pipeline_example.jpg)
+![An example TPOT pipeline](https://github.com/InkSlob/HR-Python-User-Group/blob/master/tpot/images/tpot-pipeline-example.jpg)
 
 ## Resources & Articles 
 
