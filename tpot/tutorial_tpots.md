@@ -130,11 +130,11 @@ results = exported_pipeline.predict(testing_features)
 
 POT is a Python tool that automatically creates and optimizes machine learning pipelines using genetic programming.  TPOT will automate the most tedious part of machine learning by intelligently exploring thousands of possible pipelines to find the best one for your data.  
 
-![An example machine learning pipeline](https://github.com/InkSlob/HR-Python-User-Group/tree/master/tpot/images/tpot_ml_pipeline.PNG)
+![An example machine learning pipeline](https://github.com/InkSlob/HR-Python-User-Group/blob/master/tpot/images/tpot-ml-pipeline.jpg)
 
 Once TPOT is finished searching (or you get tired of waiting), it provides you with the Python code for the best pipeline it found so you can tinker with the pipeline from there.  
 
-![An example TPOT pipeline](https://github.com/InkSlob/HR-Python-User-Group/tree/master/tpot/images/tpot_pipeline_example.PNG)
+![An example TPOT pipeline](https://github.com/InkSlob/HR-Python-User-Group/tree/master/tpot/images/tpot_pipeline_example.jpg)
 
 ## Resources & Articles 
 
