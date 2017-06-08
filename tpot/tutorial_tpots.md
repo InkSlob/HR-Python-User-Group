@@ -43,6 +43,7 @@ $ source venv_tpot/bin/activate
 ```
 
 ## TPOTS INSTALLATION
+The tutorial on TPOTs is based on the TPOTs webpage linked below.
 [Source](https://rhiever.github.io/tpot/installing/)
 
 *Install sci-kit learn*
@@ -124,3 +125,20 @@ exported_pipeline = KNeighborsClassifier(n_neighbors=10, weights="distance")
 exported_pipeline.fit(training_features, training_target)
 results = exported_pipeline.predict(testing_features)
 ```
+
+## What did TPOT Do?
+
+POT is a Python tool that automatically creates and optimizes machine learning pipelines using genetic programming.  TPOT will automate the most tedious part of machine learning by intelligently exploring thousands of possible pipelines to find the best one for your data.  
+
+![An example machine learning pipeline](https://github.com/InkSlob/HR-Python-User-Group/tree/master/tpot/images/tpot_ml_pipeline.PNG)
+
+Once TPOT is finished searching (or you get tired of waiting), it provides you with the Python code for the best pipeline it found so you can tinker with the pipeline from there.  
+
+![An example TPOT pipeline](https://github.com/InkSlob/HR-Python-User-Group/tree/master/tpot/images/tpot_pipeline_example.PNG)
+
+## Resources & Articles 
+
+[TPOT: A Python Tool for Automating Data Science](http://www.kdnuggets.com/2016/05/tpot-python-automating-data-science.html/2)
+[Machine Learning Tool Seeks to Automate Data Science](https://www.datanami.com/2015/10/19/machine-learning-tool-seeks-to-automate-data-science/)
+[Data Science Automation: Debunking Misconceptions](http://www.kdnuggets.com/2016/08/data-science-automation-debunking-misconceptions.html)
+[auto-sklearn Manual](https://automl.github.io/auto-sklearn/stable/manual.html#manual)
